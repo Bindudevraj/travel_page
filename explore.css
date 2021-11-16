@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    background-color: blueviolet;
+}
+.box{
+    position: relative;
+    /* width: 340px;
+    height: 340px; */
+    transform-style: preserve-3d;
+}
+.box span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(700px);
+}
+.box span img{
+    width: 330px;
+    height: 300px;
+}
+div{
+    align-content: center;
+    position: fixed;
+}

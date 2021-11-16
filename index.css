@@ -95,11 +95,12 @@ section{
 .home .content a{
   background: #fff;
   padding: 15px 35px;
-  color: #1680AC;
-  font-size: 1.1em;
-  font-weight: 500;
   text-decoration: none;
-  border-radius: 2px;
+  border: 2px solid rgb(206, 199, 199);
+  color: black;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .home .media-icons{
